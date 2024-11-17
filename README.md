@@ -18,8 +18,8 @@ UseCase-NLP/
 ├── .env                 # Environment variables
 ├── .gitignore           # Git ignore file
 ├── requirements.txt     # Python dependencies
-├── 01_data_preprocessing.ipynb      # Jupyter notebook for tweets extraction and ingestion to the database
-├── 02_text_classification.ipynb     # Jupyter notebook for sentiment analysis of tweets using NLP in three methods
+├── Tweets_Ingestion_and_persistence.ipynb      # Jupyter notebook for tweets extraction and ingestion to the database
+├── tweets-NLP.ipynb                            # Jupyter notebook for sentiment analysis of tweets using NLP in three methods
 |
 └── tweetsDB.db          # SQLite database file
 ```
@@ -46,7 +46,7 @@ UseCase-NLP/
    ```
 
 4. **Run Jupyter Notebooks**:
-   - Launch Jupyter Notebooks to explore and run the notebooks in the `notebooks` folder:
+   - Launch Jupyter Notebooks to explore and run the notebooks:
      ```bash
      jupyter notebook
      ```
